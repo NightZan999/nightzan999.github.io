@@ -30,3 +30,13 @@
 body {
     background-color: teal;
 }
+.jumbotron {
+    text-align: center;
+    padding-top: 15px;
+    background-image: linear-gradient(to right, lime, cyan);
+    padding-bottom: 30px;
+}
+.card-body {
+    background-color: blueviolet;
+    color : cyan;
+}
