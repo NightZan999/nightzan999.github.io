@@ -41,10 +41,10 @@
             <div class="w3-dropdown-hover">
                 <button class="w3-button w3-hover-teal"><i class="fas fa-pencil-alt"></i> &nbsp;Frameworks</button>
                 <div class="w3-dropdown-content w3-bar-block w3-card-4">
-                    <a href="#" class="w3-bar-item w3-button w3-hover-teal">Bootstrap</a>
-                    <a href="#" class="w3-bar-item w3-button w3-hover-teal">W3 CSS</a>
-                    <a href="#" class="w3-bar-item w3-button w3-hover-teal">Django</a>
-                    <a href="#" class = "w3-bar-item w3-button w3-hover-teal">ExpressJS</a>
+                    <a href="#bs" class="w3-bar-item w3-button w3-hover-teal">Bootstrap</a>
+                    <a href="#w3css" class="w3-bar-item w3-button w3-hover-teal">W3 CSS</a>
+                    <a href="#django" class="w3-bar-item w3-button w3-hover-teal">Django</a>
+                    <a href="#express" class = "w3-bar-item w3-button w3-hover-teal">ExpressJS</a>
                 </div>
             </div>
             <div class="w3-dropdown-hover">
@@ -52,9 +52,9 @@
                 <div class="w3-dropdown-content w3-bar-block w3-card-4">
                     <a href="#tig" class="w3-bar-item w3-button w3-hover-teal">TheImperialGod</a>
                     <a href="#zansite" class="w3-bar-item w3-button w3-hover-teal">nightZan999.github.io</a>
-                    <a href="#scu" class="w3-bar-item w3-button w3-hover-teal">scu-discord-bot</a>
                 </div>
             </div>
+            <a href="https://github.com/NightZan999" class="w3-bar-item w3-button w3-hover-teal"><i class="fab fa-github"></i>&nbsp;Github</a>
         </div>          
         <div class="w3-container w3-teal">
             <br>
@@ -284,7 +284,7 @@
         <br> <br>
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6" id = "bs">
                     <h2>Bootstrap | CSS, JS</h2>
                     <p>I learned this about 2 months 
                         after learning PHP. Since I couldn't 
@@ -323,7 +323,7 @@
                     <br> 
                     <i class="fas fa-bolt fa-10x"></i>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6" id = "w3css">
                     <h2>W3 CSS | CSS</h2>
                     <p>A css library arguably more powerful
                     than bootstrap itself. It was inspired by bootstrap and
@@ -343,7 +343,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6" id ="django">
                     <h2>Django | Python</h2>
                     <p>I used Django to build a sample site
                         I think django is good, but not nearly as good as some other 
@@ -370,7 +370,7 @@
                     <br> <br> <br> <br>
                     <img src="data:image/png;base64,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" alt="Express logo">
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6" id = "express">
                     <h2>ExpressJS | JavaScript</h2>
                     <p>I learned ExpressJS as part of the MEAN stack!
                     Yash Bhatnagar my friend has created plenty of projects with ExpressJS and 
@@ -405,7 +405,7 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4" id = "tig">
                     <img class="card-img-top" src="assets/bot_pic.jpg" alt="Card image">
                     <h4 class="card-title">TheImperialGod</h4><p class="card-text">TheImperialGod is an epic 
                   discord bot which is in over 30 servers 
@@ -415,8 +415,8 @@
                   to be the one trick pony!
                   <b>People call this an <u>EPIK GAMER MOVE!</u></b>
                   <br> <br>
-                  Anyways, I wrote over 36000 lines of code according 
-                  to github. 26,000 lines were deleted that leaves 
+                  Anyways, I wrote about 50000 lines of code according 
+                  to github.  lines were deleted that leaves 
                   10,000 lines. I have been working hard on this since 5 months!
               </p>
               <h5>How can you help?</h5>
@@ -433,12 +433,28 @@
               <a href="https://top.gg/bot/768695035092271124/vote" class="btn btn-primary">Top.gg voting</a>
               <a href="https://discord.com/oauth2/authorize?client_id=768695035092271124&scope=bot&permissions=21474836398" class="btn btn-primary">Invite</a>
                 </div>
-                <div class="col-md-4">
-                    
+                <div class="col-md-4" id = "zansite">
+                    <img class="card-img-top" src="assets/zansite.jpg" alt="Card image">
+                    <h4>nightzan999.github.io</h4>
+                    <p>Lol this is not really a project!
+                        But I have worked really hard on this project! <br> <br>
+                        I coded over 500 lines for this website. 
+                        So please star the project on github and 
+                        also follow me for more motivation!
+                        <br> <br>
+                        Anyways, I will be adding more projects to this project 
+                        so be sure to follow me on github to 
+                        be the latest one to receive updates about my new projects!
+                        <br> <br>
+                        Thanks and Regards,
+                        <br> NightZan999
+                        <br>
+                        <a href="https://nightzan999.github.io" class="btn btn-primary">See Website</a>
+                        <a href="https://github.com/NightZan999/nightzan999.github.io" class="btn btn-primary">Github Repository</a>
+                        <a href="https://github.com/NightZan999" class = "btn btn-primary">Follow me on github</a>
+                    </p>
                 </div>
             </div>
         </div>
-
-
     </body>
 </html>
