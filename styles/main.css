@@ -37,3 +37,13 @@
     background-color: blueviolet;
     color : cyan;
 }
+#accordion-area {
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+}
+#notAccordion {
+    background-color: blueviolet;
+    color: white;
+    width: 50%; 
+}

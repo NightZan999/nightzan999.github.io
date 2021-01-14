@@ -7,6 +7,7 @@
         <!--Embed meta, this allows your site to embed whenever someone sends a link to the website in any service that uses embeds, such as discord-->
         <meta property="og:title" content="About NightZan999">
         <meta property="og:description" content = "NightZan999 is a student and developer. Who knows 7 languages! Read more about him">
+        <meta property="og:site_name" content="nightzan999.github.io">
         <!--Image data-->
         <meta property="og:image" content="https://avatars2.githubusercontent.com/u/57224016?s=400&u=bbe4ade4ce114721fb66c9720b51ce8d9ecaf634&v=4">
         <meta property="og:image:height" content="64">
@@ -39,8 +40,21 @@
         <!--Navbar-->
         <div class="w3-bar w3-green" id = "awesomeNavbar">
             <a href="./index.html" class="w3-bar-item w3-button w3-hover-teal"><i class="fas fa-home"></i>&nbsp; Home</a>
-            <a href="./about.html" class="w3-bar-item w3-button w3-hover-teal"><i class = "fas fa-book"></i>&nbsp; About</a>
-            <a href="./contact.html" class="w3-bar-item w3-button w3-hover-teal"><i class="fas fa-align-left"></i> &nbsp; Contact</a>
+            <div class="w3-dropdown-hover">
+                <button class="w3-button w3-hover-teal"><i class="fas fa-book"></i> &nbsp;Important</button>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                    <a href="./about.html" class="w3-bar-item w3-button w3-hover-teal"><i class = "fas fa-book"></i>&nbsp; About NightZan999</a>
+                    <a href="#faq" class="w3-bar-item w3-button w3-hover-teal"><i class="far fa-question-circle"></i> Frequently Asked Questions</a>
+                </div>
+            </div>
+            <div class="w3-dropdown-hover">
+                <button class="w3-button w3-hover-teal"><i class="fas fa-book"></i> &nbsp;Contact</button>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                    <a href="https://github.com/NightZan999" class="w3-bar-item w3-button w3-hover-teal"><i class="fab fa-github"></i>&nbsp;Github</a>
+                    <a href="https://discord.gg/3cgwpz4xY2" class="w3-bar-item w3-button w3-hover-teal"><i class="fab fa-discord"></i> &nbsp; Discord Server</a>
+                </div>
+            </div>
+            <a href="./gamer.html"class="w3-bar-item w3-button w3-hover-teal"><i class="fas fa-gamepad"></i>&nbsp; NightZan The Gamer</a>
             <div class="w3-dropdown-hover">
               <button class="w3-button w3-hover-teal"><i class="fas fa-book"></i> &nbsp;Languages</button>
               <div class="w3-dropdown-content w3-bar-block w3-card-4">
@@ -72,7 +86,6 @@
                     <a href="#phpdateandtime" class = "w3-bar-item w3-button w3-hover-teal">DateAndTimeAdvanced</a>
                 </div>
             </div>
-            <a href="https://github.com/NightZan999" class="w3-bar-item w3-button w3-hover-teal"><i class="fab fa-github"></i>&nbsp;Github</a>
         </div>   
         <!--Main header-->       
         <div class="w3-container w3-teal">
@@ -460,7 +473,7 @@
                     <h4>My Personal Website (the one your reading!)</h4>
                     <p>Lol this is not really a project!
                         But I have worked really hard on this project! <br> <br>
-                        I coded over 500 lines for this website. 
+                        I coded over 700 lines for this website. 
                         So please star the project on github and 
                         also follow me for more motivation!
                         <br> <br>
@@ -511,7 +524,7 @@
                         which JavaScript, and NodeJS APIs could handle very very easily!
                         <br> 
                         So I thought, why don't I make something like this? 
-                        I am going to be putting it on <a href="https://packagist.org/">packageist</a> soon. 
+                        I am going to be putting it on <a href="https://packagist.org/">packagist</a> soon. 
                         <br> <br>
                         This project will also have a website in PHP, which makes it all the better!
                         And also a project page!
@@ -521,11 +534,90 @@
                         5-6 months doing, because of the fact that I 
                         am not too good at PHP. 
                     </p>
+                    <a href="https://packagist.org/packages/nightzan999/date-and-time-advanced" class = "btn btn-primary">Project on Packagist</a>
                     <a href="https://github.com/NightZan999/DateAndTimeAdvanced" class = "btn btn-primary">Github Repository</a>
                     <a href="https://github.com/NightZan999" class = "btn btn-primary">Follow me on github!</a>
                 </div>
             </div>
         </div>
+        <br> <br>
+        <div class="jumbotron">
+            <h1>FAQ</h1>
+            <p>Here are some Frequently asked questions. So you can simply click on 
+                these buttons and it will open up text related to it! 
+                But you can't close it! It closes when you open another button!
+                <br> <br>
+                This is made from people contacting me for kinda useless reasons! 
+                And also, just to make you aware of it!
+            </p>
+        </div>
+        <br> <br> <br>
+        <div class="container" id = "accordion-area">
+            <div class="row" id = "faq">
+                <div class="col-md-6" id = "notAccordion">
+                    <h1>Frequently Asked Questions!</h1>
+                    <p>These questions are asked a lot! So rather than 
+                        you contacting me and asking me these questions 
+                        you can read up now!
+                        <br> <br>
+                        Now we are actually <b>optionally showing you these 
+                        with Bootstrap accordions!
+                        </b>
+                        <br> 
+                        Be sure to check out Bootstrap since 
+                        nothing could happen without them. 
+                    </p>
+                </div>
+                <div class="col-md-6" id = "accordion">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                Will you be leaving projects when their done? 
+                            </button>
+                          </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Yes I will be, when I am content with the level of some of my projects. I will only take pull requests and then update the project when I need to!
+                                Because I can't stay on one project forever. This is why I have to move on and show more!
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                Why did you learn JavaScript and PHP before Python? 
+                            </button>
+                          </h2>
+                          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                              <div class="accordion-body">
+                                Firstly, I didn't know I had to go to python like I said in my JavaScript description. 
+                                And I prefer learning myself, W3Schools is encouraging, JavaScript to modify DOM elements. 
+                                So I learnt JavaScript because at that time it had more applications than python. 
+                                <br> <br>
+                                PHP was needed for the backend of things. At this point I was just focusing 
+                                on web developement. Not realizing that there is more than that!
+                              </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                How can I contact you?
+                            </button>
+                          </h2>
+                          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                              <div class="accordion-body">Contact me through discord or through github. Check the links from 
+                                  the navbar!  
+                                And next time use the navbar to get this!
+                                <br> <br>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
