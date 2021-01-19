@@ -3,6 +3,7 @@ Project Name:
 Languages:
 - html
 - css
+- scss
 Description:
 - It is a website for NightZan999
 Features:
@@ -10,3 +11,5 @@ Features:
 - Must have bootstrap 4
 - Must have W3 CSS
 - Uses github domains
+- Talks about contact and redirects pages
+- Must use custom SASS and styling
