@@ -33,6 +33,10 @@
     background-image: linear-gradient(to right, lime, cyan);
     padding-bottom: 30px;
 }
+
+.jumbotron p {
+    font-family: 'Fira Mono', monospace;
+}
 .card-body {
     background-color: blueviolet;
     color : cyan;
@@ -46,4 +50,7 @@
     background-color: blueviolet;
     color: white;
     width: 50%; 
+}
+:root {
+    font-family: 'Fira Mono', monospace;
 }
