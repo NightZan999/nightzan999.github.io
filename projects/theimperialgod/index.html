@@ -1,401 +1,228 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="shortcut icon" href="../../assets/bot_pic.jpg" width = "100" height = "70">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/now-ui-kit.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,800,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,600,700,800,900&display=swap" rel="stylesheet">
-    <title>TheImperialGod - Home</title>
-    <style>
-        .nav-link {
-            font-size: 20px; 
-            font-weight: 100;
-            text-emphasis: bold;
-        }
-    </style>
-</head>
-<body>
-<nav class="navbar navbar-expand-lg bg-transparent">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <img src="../../assets/bot_pic.jpg" width="20px" height="20px" style="max-width: none !important;">
-    </button>
-    <img src="../../assets/bot_pic.jpg" width="100" height="50">
-    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 20px !important">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#/">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#features">Features</a>
-            </li>
-            <li class = "nav-item">
-                <a class="nav-link" href="https://discord.com/oauth2/authorize?client_id=768695035092271124&scope=bot&permissions=21474836398" target="_blank">Invite</a>
-            </li>
-        </ul>
-        <div class="nav-item">
-            <a class="nav-link" href="./docs/docs.html">Documentation</a>
-        </div>
-        <div class="nav-item">
-            <a class="nav-link" href="./about.html">About</a>
-        </div>
-    </div>
-</nav>
-<div class="heading">
-    <h1 class="display-5 title">It's time to use TheImperialGod in your server.</h1>
-    <p class="subtitle">TheImperialGod is a multi-purpose bot ready to skill up and boost up your Discord server<br />Also features auto-moderation, administration and much more!</p>
-    <a class="btn btn-primary btn-lg" href="./docs/main.html" target="_blank" role="button">Get started with Documentation</a>
-    <a class="btn btn-secondary btn-lg" href="https://discord.com/oauth2/authorize?client_id=768695035092271124&scope=bot&permissions=21474836398" target="_blank" role="button">Add to server</a>
-    <br /><br /><br /><br /><br /><br />
-</div>
-<div class="features" id = "features">
-    <div class="title">Features of TheImperialGod</div>
-    <div class="subtitle">We provide you the best features in TheImperialGod!</div>
-    <div class="cards">
-        <div class="card" style="width: 18rem;">
-        <div class="card-body">
-            <h5 class="card-title">Moderation</h5>
-            <p class="card-text">TheImperialGod has powerful moderation features. These include kicking users, banning users, locking channels, 
-                unlocking channels and setting a custom amount of slowmode!
+<html>
+    <head>
+        <title>NightZan999 - Developer and Student</title>
+        <!--Normal encoding-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Embed meta, this allows your site to embed whenever someone sends a link to the website in any service that uses embeds, such as discord-->
+        <meta property="og:title" content="About NightZan999">
+        <meta property="og:description" content = "NightZan999 is a student and developer. Who knows 7 languages! Read more about him">
+        <meta property="og:site_name" content="nightzan.com">
+        <!--Image data-->
+        <link rel="shortcut icon" href="https://avatars2.githubusercontent.com/u/57224016?s=400&u=bbe4ade4ce114721fb66c9720b51ce8d9ecaf634&v=4" type="image/x-icon">
+        <meta property="og:image" content="https://avatars2.githubusercontent.com/u/57224016?s=400&u=bbe4ade4ce114721fb66c9720b51ce8d9ecaf634&v=4">
+        <meta property="og:image:height" content="64">
+        <meta property="og:image:width" content="64">
+        <!--Url -->
+        <meta property="og:url" content="https://nightzan.com">
+        <meta name="theme-color" content="#FFFF00">
+        <!--Bootstrap, W3CSS and FontAwesome-->
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+        <!--Local Stylesheets-->
+        <link rel="stylesheet" href="styles/animate.css">
+        <link rel="stylesheet" href="styles/maicons.css">
+        <link rel="stylesheet" href="styles/mobster.css">
+        <link rel="stylesheet" href="styles/main.css">
+        <!--Get fonts-->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap" rel="stylesheet">        
+        <!--Get some css-->
+        <style>
+            :root {
+                font-family: 'Fira Mono', monospace;
+            }
+            body {
+                background-color: yellow;
+                font-family: 'Fira Mono', monospace;
+            }
+            h2 {
+                font-size: 45px;
+                font-family: 'Fira Mono', monospace;
+            }
+            p {
+                font-size: 18px;
+                font-family: 'Fira Mono', monospace;
+            }
+            li {
+                font-size: 18px;font-family: 'Fira Mono', monospace;
+            }
+        </style>
+    </head>
+    <body data-bs-spy="scroll" data-bs-target="#awesomeNavbar">
+        <!--Navbar-->
+        <div class="w3-bar w3-green" id = "awesomeNavbar">
+            <a href="https://nightzan.com" class="w3-bar-item w3-button w3-hover-teal"><i class="fas fa-home"></i>&nbsp; Home</a>
+            <a href="./server.html" class = "w3-bar-item w3-button w3-hover-teal"><i class="fab fa-discord"></i>&nbsp; Dragon World</a>
+            <div class="w3-dropdown-hover">
+                <button class="w3-button w3-hover-teal"><i class="fab fa-js"></i> &nbsp;Code Stuff</button>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                    <a href="./code/languages.html" class = "w3-bar-item w3-button w3-hover-teal"><i class="fas fa-book"></i> &nbsp; Languages</a>
+                    <a href='./code/projects.html' class = "w3-bar-item w3-button w3-hover-teal"><i class="fas fa-pencil-alt"></i> &nbsp; Projects</a>
+                    <a href="./code/frameworks.html"class = "w3-bar-item w3-button w3-hover-teal" ><i class="fas fa-university"></i> &nbsp;Frameworks</a>
+                </div>
+            </div>
+            <div class="w3-dropdown-hover">
+                <button class="w3-button w3-hover-teal"><i class="fas fa-book"></i> &nbsp;Important</button>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                    <a href="./about.html" class="w3-bar-item w3-button w3-hover-teal"><i class = "fas fa-book"></i>&nbsp; About NightZan999</a>
+                    <a href="#faq" class="w3-bar-item w3-button w3-hover-teal"><i class="far fa-question-circle"></i> Frequently Asked Questions</a>
+                </div>
+            </div>
+            <div class="w3-dropdown-hover">
+                <button class="w3-button w3-hover-teal"><i class="fas fa-book"></i> &nbsp;Contact</button>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                    <a href="https://github.com/NightZan999" class="w3-bar-item w3-button w3-hover-teal"><i class="fab fa-github"></i>&nbsp;Github</a>
+                    <a href="https://discord.gg/3cgwpz4xY2" class="w3-bar-item w3-button w3-hover-teal"><i class="fab fa-discord"></i> &nbsp; Discord Server</a>
+                </div>
+            </div>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"class="w3-bar-item w3-button w3-hover-teal"><i class="fas fa-gamepad"></i>&nbsp; NightZan The Gamer</a>
+        </div>   
+        <!--Main header-->       
+        <div class="w3-container w3-teal">
+            <br>
+            <h1>NightZan999 - Developer and Student</h1>
+            <br>
+            <p>I am a student and a math fanatic. I absolutely love mathematics
+                and have aced all exams taken on it! <br>
+                These include Talent Olympiad, IMO and more!
                 <br> <br>
-                Moderation features are one of the best in all bots. Some commands 
-                help you even create roles by typing a command!
+                I like science as well, but just to a resonable 
+                point. Out of the three sciences I like physics the most!
+                <br>    
+                Anyways, I know plenty of languages and I know coding!
+                My uncle taught me coding since I was 6 years old and 
+                I have been coding for a <b>really</b> long time now!
+                <br> <br>
+                I use git with github and upload plenty of languages!
+                Check the code stuff section inside the navbar, to see what languages I know and what I do in coding!
+            </p>
+        </div>      
+        <br> <br>
+        <div class="jumbotron">
+            <h1>FAQ</h1>
+            <p>Here are some Frequently asked questions. So you can simply click on 
+                these buttons and it will open up text related to it! 
+                But you can't close it! It closes when you open another button!
+                <br> <br>
+                This is made from people contacting me for kinda useless reasons! 
+                And also, just to make you aware of it!
             </p>
         </div>
-    </div>
-        <div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title">Economy</h5>
-                <p class="card-text">As everyone likes economy 
-                    commands and fun, we have 
-                    a good economy system for fun!
-                    <br> <br>
-                    Given this it is your goal to make a ton of money 
-                    in your account and keep trying to be 
-                    the richest in your server!
-                </p>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title">Toggleable automoderation</h5>
-                <p class="card-text">Moderation 
-                    features are good. If you 
-                    have a server where swearing is banned 
-                    and you don't have a ton of moderators 
-                    online don't worry. 
-                    <br> <br>
-                    Because you have TheImperialGod with you!
-                    TheImperialGod, if automod is enabled
-                    will filter out all bad words and 
-                    this only works in non NSFW channels. 
-                    <br> <br>
-                    TheImperialGod will also ban users who use racial 
-                    slurs, but keep in mind moderators are immune to this!
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="cards">
-        <div class="card" style="width: 18rem;">
-        <div class="card-body">
-            <h5 class="card-title">Utilities</h5>
-            <p class="card-text">
-                TheImperialGod has Utilities which 
-                are used by members who cannot 
-                use anything above!
-                These are usually fun commands! 
-                But not as you would think of them!
-            </p>
-        </div>
-    </div>
-        <div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title">Math Commands</h5>
-                <p class="card-text">
-                    C'mon sometimes everyone is a 
-                    bit lazy to do maths
-                    and not everyone is 
-                    gifted in mathematics. 
-                    <br> <br>
-                    Thus I have invented math commands 
-                    for TheImperialGod
-                    to help you make sure your calculations
-                    are right!
-                    <br> <br>
-                    Decimal calculations go up to 7 places 
-                    in case you were wondering!
-                </p>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title">Fun</h5>
-                <p class="card-text">
-                    Fun commands, such as commands 
-                    which automatically summon animals. 
-                    They take a random animal from reddit 
-                    and then show it to you on discord. 
-                    <br> <br>
-                    We have a number of animals and thus 
-                    making your life easier. 
-                    <br> <br>
-                    Note: this is not limited to animals, 
-                    we also have a meme command which shows 
-                    you a random meme from reddit!
-                    <br> No more browing memes on reddit!
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="cards">
-        <div class="card" style="width: 18rem;">
-        <div class="card-body">
-            <h5 class="card-title">Giveaways</h5>
-            <p class="card-text"> 
-                Yes, this bot is an all in one. 
-                Why have 10 bots in your server when one can 
-                do all? 
-                <br> <br>
-                We have an interactive gstart command 
-                which helps you plan a giveaway in your server!
-                <br> <br>
-                We also have a reroll command to help reroll 
-                unfair giveaways!
-            </p>
-        </div>
-    </div>
-        <div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title">Tickets</h5>
-                <p class="card-text">
-                    Most people are confused 
-                    about what tickets are? 
-                    But here is a simple explanation. 
-                    Tickets is a way for users to contact 
-                    the entire staff team!
-                    <br> <br> 
-                    Admins can setup a role of moderators who 
-                    have the right to view any ticket. 
-                    <br> <br>
-                    Then users can create tickets with reasons 
-                    and talk to staff!
-                </p>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title">Information</h5>
-                <p class="card-text">
-                    So, ever wanted to know something about a user
-                    or your server? 
-                    The information category will 
-                    keep you well informed about
-                    everything you'll want to know!
-                    <br> <br>
-                    This can be used by both admins and moderators. 
-                </p>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="features" id = "partners">
-    <div class="title">Partners of TheImperialGod</div>
-    <div class="subtitle">Without our partners TheImperialGod won't be in a lot of servers!</div>
-    <div class="cards">
-        <div class="card" style="width: 18rem;">
-        <div class="card-body">
-            <h5 class="card-title">Adverium Advertising</h5>
-            <p class="card-text">
-                Adverium Advertising is an epic discord server 
-                which supports you to advertise your things!
-                <br> <br>
-                Want people to see something, 
-                want people to gain insights on somethings!
-                <br> <br>
-                Then this is the perfect place for you!
-                
-            </p>
-        </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-        <div class="card-body">
-            <h5 class="card-title">Economy</h5>
-            <p class="card-text">As everyone likes economy 
-                commands and fun, we have 
-                a good economy system for fun!
-                <br> <br>
-                Given this it is your goal to make a ton of money 
-                in your account and keep trying to be 
-                the richest in your server!
-            </p>
-        </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-        <div class="card-body">
-            <h5 class="card-title">Toggleable automoderation</h5>
-            <p class="card-text">Moderation 
-                features are good. If you 
-                have a server where swearing is banned 
-                and you don't have a ton of moderators 
-                online don't worry. 
-                <br> <br>
-                Because you have TheImperialGod with you!
-                TheImperialGod, if automod is enabled
-                will filter out all bad words and 
-                this only works in non NSFW channels. 
-                <br> <br>
-                TheImperialGod will also ban users who use racial 
-                slurs, but keep in mind moderators are immune to this!
-            </p>
-        </div>
-    </div>
-    </div>
-    <div class="cards">
-        <div class="card" style="width: 18rem;">
-        <div class="card-body">
-            <h5 class="card-title">Utilities</h5>
-            <p class="card-text">
-                TheImperialGod has Utilities which 
-                are used by members who cannot 
-                use anything above!
-                These are usually fun commands! 
-                But not as you would think of them!
-            </p>
-        </div>
-    </div>
-        <div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title">Math Commands</h5>
-                <p class="card-text">
-                    C'mon sometimes everyone is a 
-                    bit lazy to do maths
-                    and not everyone is 
-                    gifted in mathematics. 
-                    <br> <br>
-                    Thus I have invented math commands 
-                    for TheImperialGod
-                    to help you make sure your calculations
-                    are right!
-                    <br> <br>
-                    Decimal calculations go up to 7 places 
-                    in case you were wondering!
-                </p>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title">Fun</h5>
-                <p class="card-text">
-                    Fun commands, such as commands 
-                    which automatically summon animals. 
-                    They take a random animal from reddit 
-                    and then show it to you on discord. 
-                    <br> <br>
-                    We have a number of animals and thus 
-                    making your life easier. 
-                    <br> <br>
-                    Note: this is not limited to animals, 
-                    we also have a meme command which shows 
-                    you a random meme from reddit!
-                    <br> No more browing memes on reddit!
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="cards">
-        <div class="card" style="width: 18rem;">
-        <div class="card-body">
-            <h5 class="card-title">Giveaways</h5>
-            <p class="card-text"> 
-                Yes, this bot is an all in one. 
-                Why have 10 bots in your server when one can 
-                do all? 
-                <br> <br>
-                We have an interactive gstart command 
-                which helps you plan a giveaway in your server!
-                <br> <br>
-                We also have a reroll command to help reroll 
-                unfair giveaways!
-            </p>
-        </div>
-    </div>
-        <div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title">Tickets</h5>
-                <p class="card-text">
-                    Most people are confused 
-                    about what tickets are? 
-                    But here is a simple explanation. 
-                    Tickets is a way for users to contact 
-                    the entire staff team!
-                    <br> <br> 
-                    Admins can setup a role of moderators who 
-                    have the right to view any ticket. 
-                    <br> <br>
-                    Then users can create tickets with reasons 
-                    and talk to staff!
-                </p>
-            </div>
-        </div>
-        <div class="card" style="width: 18rem;">
-            <div class="card-body">
-                <h5 class="card-title">Information</h5>
-                <p class="card-text">
-                    So, ever wanted to know something about a user
-                    or your server? 
-                    The information category will 
-                    keep you well informed about
-                    everything you'll want to know!
-                    <br> <br>
-                    This can be used by both admins and moderators. 
-                </p>
-            </div>
-        </div>
-    </div>
-</div>
+        <br> <br> <br>
+        <div class="container" id = "accordion-area">
+            <div class="row" id = "faq">
+                <div class="col-md-6" id = "notAccordion">
+                    <h1>Frequently Asked Questions!</h1>
+                    <p>These questions are asked a lot! So rather than 
+                        you contacting me and asking me these questions 
+                        you can read up now!
+                        <br> <br>
+                        Now we are actually <b>optionally showing you these 
+                        with Bootstrap accordions!
+                        </b>
+                        <br> 
+                        Be sure to check out Bootstrap since 
+                        nothing could happen without them. 
+                    </p>
+                </div>
+                <div class="col-md-6" id = "accordion">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                Will you be leaving projects when their done? 
+                            </button>
+                          </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Yes I will be, when I am content with the level of some of my projects. I will only take pull requests and then update the project when I need to!
+                                Because I can't stay on one project forever. This is why I have to move on and show more!
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                Why did you learn JavaScript and PHP before Python? 
+                            </button>
+                          </h2>
+                          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                              <div class="accordion-body">
+                                Firstly, I didn't know I had to go to python like I said in my JavaScript description. 
+                                And I prefer learning myself, W3Schools is encouraging, JavaScript to modify DOM elements. 
+                                So I learnt JavaScript because at that time it had more applications than python. 
+                                <br> <br>
+                                PHP was needed for the backend of things. At this point I was just focusing 
+                                on web developement. Not realizing that there is more than that!
+                              </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                How can I contact you?
+                            </button>
+                          </h2>
+                          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                              <div class="accordion-body">Contact me through discord or through github. Check the links from 
+                                  the navbar!  
+                                And next time use the navbar to get this!
+                                <br> <br>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                            Why does JS symbol pop up in the code stuff section in the navbar
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                JavaScript is known to be the most popular programming 
+                                language of all time. It is the most uploaded language on 
+                                github, because of frameworks like React, Express and Node!
+                                <br> <br>
+                                This is why I use the JavaScript symbol for the code stuff 
+                                section on the navbar!
+                                <br> <br>
+                            </div>
+                        </div>
+                    </div>
 
-<div class="statistics">
-    <div class="cards">
-        <div class="card statistic" style="width: 18rem;">
-            <div class="card-body">
-                <p class="card-title" style="font-size: 50px !important;line-height: 15px !important;letter-spacing: -0.06em !important;font-weight: bold !important;">40</h1>
-                <p style="font-weight: bold !important;font-size: 20px !important;">servers</p>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                What is your favorite language?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">
+                                My favorite language is English. Obviously, 
+                                my favorite programming language is between
+                                PHP and Python. Since I can write both 
+                                very comfortably!
+                                <br> <br>
+                                I also like Java, JavaScript and C#. 
+                                But I am not experienced in 
+                                either Java or C#. 
+                                <br> <br>
+                                Thus I cannot say anything about them!
+                                <br> <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="card statistic" style="width: 18rem;">
-            <div class="card-body">
-                <p class="card-title" style="font-size: 50px !important;line-height: 15px !important;letter-spacing: -0.06em !important;font-weight: bold !important;">1500+</h1>
-                <p style="font-weight: bold !important;font-size: 20px !important;">users</p>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="page_end">
-    <div class="start">
-        <div class="card">
-            <div class="card-body gs-card">
-                <div class="title">Ready to try TheImperialGod?</div>
-                <div class="subtitle">Invite TheImperialGod and start giving your server cool perks!</div>
-                <br />
-                <a class="btn btn-primary btn-lg" href="https://discord.com/oauth2/authorize?client_id=768695035092271124&scope=bot&permissions=21474836398" role="button" target = "_blank">Get started</a>
-            </div><br />
-        </div>
-    </div>
-    <div class="footer">
-        <div class="bot-footer">
-            <img src="../../assets/bot_pic.jpg" width="150"><br />
-            Copyright © NightZan999 - 2020
-        </div><br/>
-    </div>
-</div>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<script src="js/now-ui-kit.min.js"></script>
-</body>
+
+        <!--Get popper and bootstrap js-->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+        <!--Get jquery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </body>
 </html>
