@@ -1,0 +1,36 @@
+.container-fluid {
+    background-color: #d65108;
+}
+
+.navbar-light {
+    background-color: #d65108;
+}
+
+.nav-link {
+    font-size: 16px;
+    text-emphasis: bold; 
+}
+
+.dropdown-item {
+    background-color: blue; 
+    color: cyan; 
+}
+
+.dropdown-menu {
+    background-color: blue;
+}
+
+.dropdown-item:hover {
+    background-color: cyan;  
+    color: blue; 
+}
+
+#sbut {
+    background-color: red; 
+    color:black; 
+}
+
+.form-control {
+    background-color: #00cfc1; 
+    color: #C678; 
+} 

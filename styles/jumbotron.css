@@ -1,0 +1,18 @@
+.jumbotron {
+    background-color: var(--jumbotron-color);
+    text-align: center; 
+    color: #182825; 
+}
+
+.jumbotron p {
+    font-size: 20px; 
+}
+
+:root {
+    --primary-color: #81559b; 
+    --secondary-color: #efa00b; 
+    --tertiary-color: #d65108;
+    --other-color: #06d6a0; 
+    --pog-green: #35ff69; 
+    --jumbotron-color: #016fb9; 
+}
