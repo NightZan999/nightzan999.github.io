@@ -55,6 +55,8 @@
             body {
                 background-color: #2e2532; 
                 color: #fd5200; 
+                margin: 0; 
+                border: 0;
             }
             
             #parttwo {
@@ -89,55 +91,55 @@
     <body>
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">NightBar</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="https://nightzan.com"><i class="fas fa-home" id = "home"></i>&nbsp; Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#about"><i class="fas fa-book" id = "about"></i>&nbsp; About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="https://github.com/NightZan999"><i class="fab fa-github"></i> &nbsp; Github</a>
-                  </li>
-                  <li class="nav-item">
-                      <a href="https://nightzan.com/languages" class="nav-link"><i class="fas fa-cube" id = "coob"></i> &nbsp; Languages</a>
-                  </li>
-                  <li class="nav-item">
-                      <a href="https://nightzan.com/frameworks" class="nav-link"><i class="fas fa-cookie" id = "wk2osk"></i>&nbsp; Frameworks</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#projects" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <i class="fas fa-laptop-code" id = "proj"></i> &nbsp; Projects
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#theimperialgod">TheImperialGod</a></li>
-                      <li><a class="dropdown-item" href="#dg">Dragon God</a></li>
-                      <li><a class = "dropdown-item" href = "#data">DateAndTimeAdvanced</a></li>
-                      <li><a class = "dropdown-item" href = "#website">nightzan.com</a></li>
-                      <li><a class="dropdown-item" href = "#voiceactivatedbots">VoiceActivatedBots</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#endpoints">API</a></li>
+                <a class="navbar-brand" href="#">NightBar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="https://nightzan.com"><i class="fas fa-home" id = "home"></i>&nbsp; Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about"><i class="fas fa-book" id = "about"></i>&nbsp; About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://github.com/NightZan999"><i class="fab fa-github"></i> &nbsp; Github</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://nightzan.com/languages" class="nav-link"><i class="fas fa-cube" id = "coob"></i> &nbsp; Languages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://nightzan.com/frameworks" class="nav-link"><i class="fas fa-cookie" id = "wk2osk"></i>&nbsp; Frameworks</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#projects" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-laptop-code" id = "proj"></i> &nbsp; Projects
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#theimperialgod">TheImperialGod</a></li>
+                                <li><a class="dropdown-item" href="#dg">Dragon God</a></li>
+                                <li><a class = "dropdown-item" href = "#data">DateAndTimeAdvanced</a></li>
+                                <li><a class = "dropdown-item" href = "#website">nightzan.com</a></li>
+                                <li><a class="dropdown-item" href = "#voiceactivatedbots">VoiceActivatedBots</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#endpoints">API</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link"><i class="fas fa-user-plus" id = 'coll'></i>&nbsp; Colleagues</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">API (disabled for now)</a>
+                        </li>
                     </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a href="#" class="nav-link"><i class="fas fa-user-plus" id = 'coll'></i>&nbsp; Colleagues</a>
-                </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">API (disabled for now)</a>
-                  </li>
-                </ul>
-                <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" id = "sbut" type="submit">Search</button>
-                </form>
-              </div>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" id = "sbut" type="submit">Search</button>
+                    </form>
+                </div>
             </div>
-          </nav>
+        </nav>
 
 
         <div class="jumbotron">
@@ -322,78 +324,68 @@
                         <br> <br>
                     </div>
                     <div class="col-md-4">
-                        <h3>Hurricano</h3>
-                        <p>Hurricano is a very cool discord bot. It has a multitude of features to help server owners and members in a lot of ways. 
-                        <br> Basically the owners needed a <b>web developer.</b> <br> <br>
-                        As soon as I got the chance to work on the website I did.
-                        <br> I was originally part of the bot developement team, 
-                        but wasn't much help to the owners of the bot. 
-                        <br> <br> Then they gave me the oppurtunity to let me do what
-                        I'm good at ;) <br> <br>
-                        This website is still in progress and so is the bot, when it goes public
-                        and has a stable build I'll add some more links here
-                        </p>
-                        <a href="https://github.com/HurricanoBot/Hurricano" target = "_blank" class = "btn btn-primary">Github Repository</a>
-                        <!-- <img src="./assets/Hurricano.png" alt="Hurricano logo"> -->
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--Create our footer-->
-        <footer id="footer" class="footer-1">
-            <div class="main-footer widgets-dark typo-light">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-6 col-md-3">
-                            <div class="widget subscribe no-box">
-                                <h5 class="widget-title">NightZan999<span></span></h5>
-                                <p>An epic <b>student, gamer, developer!</b></p>
-                            </div>
-                        </div>
-            
-                    <div class="col-xs-12 col-sm-6 col-md-3">
-                        <div class="widget no-box">
-                            <h5 class="widget-title">Quick Links<span></span></h5>
-                            <ul class="thumbnail-widget">
-                                <li>
-                                    <div class="thumb-content"><a href="https://nightzan.com/languages">Languages</a></div> 
-                                </li>
-                                <li>
-                                    <div class="thumb-content"><a href="https://nightzan.com/frameworks">Frameworks</a></div> 
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-            
-                    <div class="col-xs-12 col-sm-6 col-md-3">
-                        <div class="widget no-box">
-                            <h5 class="widget-title">Get Started<span></span></h5>
-                            <p>Get access to your full project completed easily</p>
-                            <a class="btn" href="https://nightzan.com/business" target="_blank">Contact now for business</a>
-                        </div>
-                    </div>
-            
-                    <div class="col-xs-12 col-sm-6 col-md-3">
-            
-                        <div class="widget no-box">
-                            <h5 class="widget-title">Contact Us<span></span></h5>
-                            <p><a href="mailto:nightzan@nightzan.com" title="glorythemes">nightzan@nightzan.com</a></p>
-                        </div>
+                        
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="footer-copyright">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <p>Copyright Servetoken Inc. © 2021. All rights reserved.</p>
+
+            <!--Create our footer-->
+            <footer id="footer" class="footer-1">
+                <div class="main-footer widgets-dark typo-light">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6 col-md-3">
+                                <div class="widget subscribe no-box">
+                                    <h5 class="widget-title">NightZan999<span></span></h5>
+                                    <p>An epic <b>student, gamer, developer!</b></p>
+                                </div>
+                            </div>
+                
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="widget no-box">
+                                <h5 class="widget-title">Quick Links<span></span></h5>
+                                <ul class="thumbnail-widget">
+                                    <li>
+                                        <div class="thumb-content"><a href="https://nightzan.com/languages">Languages</a></div> 
+                                    </li>
+                                    <li>
+                                        <div class="thumb-content"><a href="https://nightzan.com/frameworks">Frameworks</a></div> 
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                            <div class="widget no-box">
+                                <h5 class="widget-title">Get Started<span></span></h5>
+                                <p>Get access to your full project completed easily</p>
+                                <a class="btn" href="https://nightzan.com/business" target="_blank">Contact now for business</a>
+                            </div>
+                        </div>
+                
+                        <div class="col-xs-12 col-sm-6 col-md-3">
+                
+                            <div class="widget no-box">
+                                <h5 class="widget-title">Contact Us<span></span></h5>
+                                <p><a href="mailto:nightzan@nightzan.com" title="glorythemes">nightzan@nightzan.com</a></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </footer>
+
+            <div class="footer-copyright">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <p>Copyright Servetoken Inc. © 2021. All rights reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
         <!--Bootstrap JS-->
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
