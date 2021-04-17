@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang = 'en'>
+    <head>
+        <title>
+            NightZan - Coding Frameworks
+        </title>
+        <!--Normal encoding-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Embed meta, this allows your site to embed whenever someone sends a link to the website in any service that uses embeds, such as discord-->
+        <meta property="og:title" content="About NightZan999">
+        <meta property="og:description" content = "NightZan999 is a student and developer. Who knows 7 languages! Read more about him">
+        <meta property="og:site_name" content="nightzan.com">
+        <!--Image data-->
+        <link rel="shortcut icon" href="https://avatars2.githubusercontent.com/u/57224016?s=400&u=bbe4ade4ce114721fb66c9720b51ce8d9ecaf634&v=4" type="image/x-icon">
+        <meta property="og:image" content="https://avatars2.githubusercontent.com/u/57224016?s=400&u=bbe4ade4ce114721fb66c9720b51ce8d9ecaf634&v=4">
+        <meta property="og:image:height" content="64">
+        <meta property="og:image:width" content="64">
+        <!--Url -->
+        <meta property="og:url" content="https://nightzan.com">
+        <meta name="theme-color" content="#FFFF00">
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <!--FA-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+        <!--Custom Styles-->
+        <link rel="stylesheet" href="./styles/footer.css">
+        <link rel="stylesheet" href="./styles/icons.css">
+        <link rel="stylesheet" href="./styles/nightbar.css">
+        <link rel="stylesheet" href="./styles/jumbotron.css">
+        <link rel="stylesheet" href="./styles/projects.css">
+        <!--Custom CSS-->
+        <style>
+            :root {
+                --primary-color: #81559b; 
+                --secondary-color: #efa00b; 
+                --tertiary-color: #d65108;
+                --other-color: #06d6a0; 
+                --pog-green: #35ff69; 
+                --jumbotron-color: #016fb9; 
+            }
+            
+            .btn-primary {
+                color: var(--secondary-color); 
+                background-color: var(--tertiary-color); 
+            }
+            
+
+            p {
+                font-size: 16px; 
+            }
+
+            #coll {
+                color: black ;
+            }
+
+            body {
+                background-color: #2e2532; 
+                color: #fd5200; 
+                margin: 0; 
+                border: 0;
+            }
+            
+            #parttwo {
+                background-color: #fd5200; 
+                color: #2e2532; 
+                width: 100%; 
+            }
+
+            #parttwo::selection{
+                background-color: #fd5200; 
+                color: #2e2532; 
+            }
+
+            #parttwo i {
+                color: black; 
+            }
+
+            li {
+                font-size: 16px; 
+            }
+
+            h2 {
+                text-align: center;
+            }
+
+            #partone::selection {
+                background-color: #fd5200; 
+                color: #2e2532; 
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="https://nightzan.com">NightBar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="https://nightzan.com"><i class="fas fa-home" id = "home"></i>&nbsp; Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about"><i class="fas fa-book" id = "about"></i>&nbsp; About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/NightZan999"><i class="fab fa-github"></i> &nbsp; Github</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="https://nightzan.com/languages" class="nav-link"><i class="fas fa-cube" id = "coob"></i> &nbsp; Languages</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#frameworks" class="nav-link"><i class="fas fa-cookie" id = "wk2osk"></i>&nbsp; Frameworks</a>
+                  </li> 
+                  <li class="nav-item">
+                    <a href="#" class="nav-link"><i class="fas fa-user-plus" id = 'coll'></i>&nbsp; Colleagues</a>
+                </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">API (disabled for now)</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" id = "sbut" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        
+        <div class="jumbotron" id = 'frameworks'>
+            <br> <br>
+            <h1>NightZan - Frameworks</h1>
+            <br>
+            <p>NightZan or more known as NightZan999 is a:<b> student, gamer, and developer </b>
+                <br> This page will show you how many programming frameworks I knows and what skill sets I have :D! <br>
+            </p>
+            <br> <br>
+        </div>
+        <br> <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6" id = "bs">
+                    <h2>Bootstrap | CSS, JS</h2>
+                    <p>I learned this about 2 months 
+                        after learning PHP. Since I couldn't 
+                        code CSS all day and I didn't like coding CSS.
+                        <br> <br>
+                        I just liked coding HTML and a bit of JS at that time!
+                        So I googled up some code and came to near no-where. 
+                        Then finally I found bootstrap, I went to w3schools and
+                        quickly figured Bootstrap out. 
+                        <br> <br>
+                        <b>Note: This website is proudly made with Bootstrap. 
+                            <br> <br>
+                            Here is what we actually use and I haven't coded
+                            any of this stuff. Just link bootstrap 
+                            to my code and I get this stuff:
+                        </b>
+                        <ul>
+                            <li>Scrollspy (when you click languages and then HTML scrolling you to HTML)</li>
+                            <li>500+ Classes</li>
+                            <li>Colors like teal, blue, green and more!</li>
+                            <li>Headers and jumbotrons</li>
+                            <li>Container classes (all this column stuff)</li>
+                            <li>Custom SASS and JavaScript</li>                            
+                        </ul>
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <br> <br> <br> <br>
+                    <br> <br> <br> <br>
+                    <i class="fab fa-bootstrap fa-10x"></i>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <br> <br> <br> <br>
+                    <br> 
+                    <i class="fas fa-bolt fa-10x"></i>
+                </div>
+                <div class="col-md-6" id = "w3css">
+                    <h2>W3 CSS | CSS</h2>
+                    <p>A css library arguably more powerful
+                    than bootstrap itself. It was inspired by bootstrap and
+                    the fact that when W3Schools taught HTML and CSS 
+                    they wrote over a million lines of CSS.
+                    <br> <br>
+                    Then with one line you can import that 1 million 
+                    lines of CSS!
+                    <br> This website uses W3 CSS aswell because I could 
+                    not figure out which one was more powerful 
+                    so I choosed both. 
+                    <br> <br>
+                    I am still exploring the potential of W3 CSS's styling. 
+                    For JavaScript my main framework is bootstrap still!
+                    <b>Note: This website also uses W3 CSS!</b>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6" id ="django">
+                    <h2>Django | Python</h2>
+                    <p>I used Django to build a sample site
+                        I think django is good, but not nearly as good as some other 
+                        web developement frameworks. This is because most of it 
+                        is actually just plain python object oriented programming!
+                        <br> <br>
+                        The problem with this is that you would need a lot more modules
+                        just to write some authentication / server side. 
+                        <br> Your interactions with the background server is only 
+                        by accessing the server. This not only makes it hard to 
+                        write SQL queries. But hard in general! <br> <br>
+                        The models are easy to setup and its good, just that 
+                        there are much better alternatives like ExpressJS.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <br> <br> <br> <br>
+                    <br> <br> <br> <br>
+                    <img src="data:image/png;base64,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" alt="Django logo!">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <br> <br> <br> <br>
+                    <img src="data:image/png;base64,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" alt="Express logo">
+                </div>
+                <div class="col-md-6" id = "express">
+                    <h2>ExpressJS | JavaScript</h2>
+                    <p>I learned ExpressJS as part of the MEAN stack!
+                    Yash Bhatnagar my friend has created plenty of projects with ExpressJS and 
+                    the MEAN stack. Incase you don't know what the MEAN stack is. It is:
+                    MongoDB, ExpressJS, AngularJS, NodeJS. Basically it is JavaScript
+                    only website. Since MongoDB is a database. 
+                    Obviously it has some static HTML, CSS, SASS etc. 
+                    <br> <br> 
+                    Now this got cool, NodeJS had a faster but less efficient 
+                    backend than PHP. Ultimately I chose PHP but I had fun 
+                    writing ExpressJS code. 
+                    This is one of the reasons that got me back to JavaScript. 
+                    NodeJS was another!
+                    <br> <br>                        
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
